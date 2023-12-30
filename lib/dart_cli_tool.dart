@@ -28,7 +28,7 @@ void buildRunner() {
     if (result.exitCode == 0) {
       progress.complete('✅Done');
     } else {
-      progress.fail('❌Error updating generated files...dcdsfdgf');
+      progress.fail('❌Error updating generated files...');
     }
   });
 }

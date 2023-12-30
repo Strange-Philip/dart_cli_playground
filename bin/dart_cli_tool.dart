@@ -24,7 +24,6 @@ void main(List<String> arguments) {
   String projectName = arguments.first;
 
   createFlutterProject(projectName);
-  // Watch for file changes in the 'lib' directory
   final watcher = DirectoryWatcher('lib');
   // Handle file changes
   watcher.events.listen((event) {
